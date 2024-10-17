@@ -1,0 +1,47 @@
+@import "../../styles/variables";
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    user-select: none;
+    .logoContainer {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        .logoName {
+            font-family: $font2;
+            color: white;
+            font-weight: 600;
+            word-spacing: 1px;
+        }
+        .logoImage {
+            width: 64px;
+        }
+    }
+    .pagesContainer {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        max-width: 260px;
+        a {
+            color: white;
+            font-family: $font1;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 400;
+            transition: color 0.2s ease-in-out;
+        }
+        a:hover {
+            color: $color3;
+        }
+        .profile {
+            img {
+                width: 50px;
+                border-radius: 50%;
+            }
+        }
+    }
+}

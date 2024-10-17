@@ -1,12 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import "./homePage.scss"
+import Navbar from '../../components/navbar/Navbar'
 
-function HomePage() {
+const HomePage = () => {
     return (
-        <div className="homePageContainer">
-            <h1>Welcome to Connect Buddy</h1>
-        </div>
+        <>
+            <Navbar />
+            <div className="homePageContainer">
+            </div>
+        </>
     )
 }
 
