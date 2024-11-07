@@ -1,1 +1,1 @@
-A freindly platform for connect your buddy in private
+A freindly chatting platform for connect your buddies
